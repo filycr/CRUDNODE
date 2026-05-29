@@ -13,3 +13,8 @@ crud-productos/
 ├── server.js             ← Servidor Express
 ├── database.sql          ← Script SQL (BD + tabla + datos)
 └── package.json
+
+
+### 2. Instalar dependencias
+  cd crud-productos Ubicarse en la carpeta e intalar
+npm install
