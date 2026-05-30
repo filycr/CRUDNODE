@@ -18,3 +18,15 @@ crud-productos/
 ### 2. Instalar dependencias
   cd crud-productos Ubicarse en la carpeta e intalar
 npm install
+
+
+### 3 modificar el archivo server.js
+const express = require('express');
+const app = express();
+const path = require('path');
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, "index.html"));
+});
+app.listen(3000, () => {
+    console.log('Servidor escuchando en el puerto 3000   http://localhost:3000');
+});
