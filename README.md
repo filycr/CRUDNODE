@@ -19,6 +19,8 @@ crud-productos/
   cd crud-productos Ubicarse en la carpeta e intalar
 npm install
 
+## puertos disponibles
+netstat -aon | findstr LISTENING   (Ejecutar en CMD)
 
 ### 3 modificar el archivo server.js
 const express = require('express');
