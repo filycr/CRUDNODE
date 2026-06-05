@@ -7,6 +7,7 @@
 crud-productos/
 ├── public/
 │   └── index.html        ← Frontend (HTML + CSS + JS)
+│   └── estilo.ccs
 ├── routes/
 │   └── productos.js      ← Rutas API REST
 ├── db.js                 ← Conexión a MySQL
