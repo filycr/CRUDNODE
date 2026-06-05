@@ -200,4 +200,6 @@ router.delete('/:id', async (req, res) => {
 
 module.exports = router;
 
+## 7 agregar los archvis index.html, estilos.css
 
+###8 Modificar la collumna Stok donde aparec  la cantidad de produtos y tiene la frase uds cambiarla a pzs
